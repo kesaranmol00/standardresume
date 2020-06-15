@@ -1,0 +1,152 @@
+[
+    {
+        "headings" :  ["about","skills","work","interests","contact"],
+        "about" : [
+            "I am a Asp .Net and Coveo certified preofessional currently working with TADigital from the past 5+ years",
+            "I have strong knowledge of development activities and responsible for demonstrating your coding skills on ASP.NET, C#, MVC, Entity Framework, .Net Core, Microservices, vue JS, HTML, REST API, Unit Testing etc",
+            "I have solid understanding of building scalable web applications using WebAPI, RESTful API design",
+            "I have Written code using the .NET Core / .Net framework and Microservice architecture",
+            "I have good working experience on Source Control systems like TFS, Azure DevOps, Git, Docker Containers, Kubernetes etc.",
+            "Develop the UI Framework - understand and be familiar human/user centered design, behavior driven development and test driven development"
+        ],
+        "work" : [
+            {
+                "year" : "2014",
+                "workdone" : [
+                    "Resource for the development of sites using .Net framework.",
+                    "Responsible for coding, unit testing, functional testing and regression testing",
+                    "User interface development using HTML, CSS, jQuery"]
+            },
+            {
+                "year" : "2015",
+                "workdone" : [
+                    "Single handedly upgraded the site from sharepoint 2007 to 2013",
+                    "Involved in code reviews and mentoring of Junior team members",
+                    "Responsible for coding, unit testing, functional testing and regression testing"
+                ]
+            },
+            {
+                "year" : "2016",
+                "workdone" : [
+                    "Contributes as a key resource for the development of sites using .Net core 2 framework",
+                    "Contributes in implmenting Coveo search in the site ",
+                    "Worked closely with managers, architects, and the QA team to deliver optimal designs and software to meet and exceed expectations"
+                ]
+            },
+            {
+                "year" : "2017",
+                "workdone" : [
+                    "Contributes as a key resource for the development of sites using .Net core 2 framework",
+                    "Contributes in implmenting Coveo search in the site ",
+                    "Worked closely with managers, architects, and the QA team to deliver optimal designs and software to meet and exceed expectations"
+                ]
+            },
+            {
+                "year" : "2018",
+                "workdone" : [
+                    "Contributes as a key resource for the development of sites using .Net core 2 framework",
+                    "Contributes in implmenting Coveo search in the site ",
+                    "Worked closely with managers, architects, and the QA team to deliver optimal designs and software to meet and exceed expectations"
+                ]
+            },
+            {
+                "year" : "2019",
+                "workdone" : [
+                    "Contributes as a key resource for the development of sites using .Net core 2 framework",
+                    "Contributes in implmenting Coveo search in the site ",
+                    "Worked closely with managers, architects, and the QA team to deliver optimal designs and software to meet and exceed expectations"
+                ]
+            },
+            {
+                "year" : "2020",
+                "workdone" : [
+                    "Contributes as a key resource for the development of sites using .Net core 2 framework",
+                    "Contributes in implmenting Coveo search in the site ",
+                    "Worked closely with managers, architects, and the QA team to deliver optimal designs and software to meet and exceed expectations"
+                ]
+            }
+        ],
+        "skills":[
+            {
+             "name" : "ASP .Net MVC",
+             "src":"mvcn",
+             "rating" :4,
+             "show": 1
+            },
+            {
+                "name" : "Sharepoint",
+                "src":"sharepoint1",
+                "rating" :4,
+                "show": 1
+            },
+            {
+                "name" : "ASP .Net Core",
+                "src":"core1",
+                "rating" :4,
+                "show": 1    
+            },
+            {
+                "name" : "HTML/CSS",
+                "src":"",
+                "rating" :3,
+                "show": 1  
+            },
+            {
+                "name" : "Kendo UI",
+                "src":"vue1",
+                "rating" :3,
+                "show": 1
+            },
+            {
+                "name" : "Caml Query Builder",
+                "rating" :5,
+                "show": 0
+            },
+            {
+                "name" : "Sharepoint designer",
+                "rating" :4,
+                "show": 0
+            },
+            {
+                "name" : "JS/Jquery",
+                "rating" :3,
+                "show": 0
+            },
+            {
+                "name" : "Coveo",
+                "rating" :2,
+                "show": 0
+            },
+            {
+                "name" : "Sitecore",
+                "rating" :2,
+                "show": 0
+            },
+            {
+                "name" : "Vue",
+                "rating" :2,
+                "show": 0
+            }
+        ],
+        "education" : [ 
+            {
+             "name" :"Bachelor of Engineering(computer Science)",
+             "src" : "http://www.mietjmu.in/images/img/l5.png",
+             "location" : "http://www.mietjmu.in/"
+            },
+            {
+                "name" :"ASP .Net certified (70-486)",
+                "src" : "",
+                "location" : ""
+            },
+            {
+                "name" :"Coveo certified",
+                "src" : "",
+                "location" : ""
+            }
+        ],
+        "hobbies" : ["gym","flower","mountain","yoga"]              
+        
+            
+    }
+]
