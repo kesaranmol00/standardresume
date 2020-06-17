@@ -1,6 +1,6 @@
 [
     {
-        "headings" :  ["about","skills","work","interests","contact"],
+        "headings" :  ["about","skills","Journey","interests","contact"],
         "about" : [
             "I am a Asp .Net and Coveo certified preofessional currently working with TADigital from the past 5+ years",
             "I have strong knowledge of development activities and responsible for demonstrating your coding skills on ASP.NET, C#, MVC, Entity Framework, .Net Core, Microservices, vue JS, HTML, REST API, Unit Testing etc",

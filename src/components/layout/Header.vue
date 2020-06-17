@@ -1,10 +1,10 @@
 <template>
     <div>
         <div class="img"></div>
-        <div class="bg-text">
+        <!-- <div class="bg-text">
             <h1>Anmol Kesar</h1>
             <p>Full Stack developer</p>
-        </div>
+        </div> -->
     </div>
 </template>
 
@@ -15,13 +15,13 @@
     background-color: transparent;
     background-position: center;
     /* background-position: 50% 50%;  logo-img*/
-    background-image: url('../../assets/Rangoli.jpeg');
+    background-image: url('../../assets/banner.jpg');
     /* min-height: 0px; */
     padding-top: 80px;
     padding-bottom: 80px;
     height: 401px;
-    filter: blur(8px);
-    -webkit-filter: blur(8px)
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px) */
 }
 /* Position text in the middle of the page/image */
 .bg-text {

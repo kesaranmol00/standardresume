@@ -5,7 +5,7 @@
       <Header />    
       <About id="about" v-bind:about ="sections[0].about" class="content"/>
       <Skills id="skills" v-bind:skills ="sections[0].skills" class="content"/>
-       <WorkDone id="work" v-bind:data ="sections[0].work" class="content full-width"/><!-- full-width -->
+       <WorkDone id="Journey" v-bind:data ="sections[0].work" class="content full-width"/><!-- full-width -->
       <Education id="interests" v-bind:data ="sections[0].education" class="content"/>
       <Contact id="contact" class="content" />
       <Footer />
@@ -51,21 +51,21 @@ export default {
 .heading h3{
       display: flex;
     flex-direction: row;
-    color: #4AAE9B;
+    color: #036266;
 }
 .heading h3::before,.heading h3::after{
      content: "";
      flex: 1 1;
      border-bottom: 2px solid #8B9C9F;         
     margin: auto 19px;
-    color: #4AAE9B;
+    color: ##036266;
 }
 body{
   margin: 0;
 }
 #app {
   font-family: 'gotham rounded', 'open-sans', sans-serif;
-  background-color: #4AAE9B;
+  background-color: #036266;
   color: #7D7D7D;
   margin: 0;
 }

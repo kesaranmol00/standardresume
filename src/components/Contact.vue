@@ -81,6 +81,7 @@ background-image: url('../assets/E-Mail.png');
     float: left;
     width: 60%;
     text-align: center;
+    margin-bottom: 30px;
 }
 #f-right{
     float: right;
@@ -104,6 +105,16 @@ background-image: url('../assets/E-Mail.png');
         float: none;
         width: 100%;
         text-align: center;
+    }
+    #map{
+        width: 80%;
+        height: 200px;
+    }
+    #f-right{
+        padding: 20px 0;
+    }
+    #f-left{
+        margin-bottom: 0;
     }
 }
 </style>

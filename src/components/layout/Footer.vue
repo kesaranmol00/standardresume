@@ -14,7 +14,7 @@ export default {
 .footer{
     text-align: center;
     margin: 0 15%;
-    background-color:#4AAE9B;
+    background-color:#036266;
     border-radius: 10px 10px 0 0;
     box-shadow: inset 1px 2px 10px 3px rgb(39, 39, 39);
 }

@@ -1,10 +1,14 @@
 <template>
 <div>
     <div class="navigation">
-        <div  v-if="!mobileView" class="d-view">
-            <a class="nav-links" href="#" v-for="heading in headings" :key="heading.id">
-                {{heading}}
-            </a>
+        <div  v-if="!mobileView" class="d-view">            
+                <div class="favicon">
+                </div>    
+                <div class="header-links">        
+                <a class="nav-links" href="#" v-for="heading in headings" :key="heading.id">
+                    {{heading}}
+                </a> 
+                </div>                      
         </div>
         <div class="progress-container">
             <div class="progress-bar" id="myBar"></div>
@@ -124,9 +128,10 @@ export default {
         left: 0;
 }
 .d-view{
-    text-align: center;
-    padding: 40px 0 10px 0;
-    font-size: 130%;
+    padding: 10px;
+    font-size: 20px;
+    float: left;
+    width: 100%;
 }
 .d-view .nav-links{
     display: inline;
@@ -135,12 +140,41 @@ export default {
 .progress-container {
   width: 100%;
   height: 8px;
-  background: #ccc;
+  background: #ccc;  
+  clear: both;
 }
 
 .progress-bar {
   height: 8px;
-  background: #4AAE9B;
+  background: #036266;
   width: 0%;
+}
+.favicon{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+     background-image: url('../assets/logo.png');
+     height: 45px;
+     width: 65px;      
+     float: left; 
+}
+.header-links{       
+    float: right;
+    width: 85%;
+    text-align: right;
+    padding-top: 20px;
+}
+@media only screen and (max-width: 800px) {
+  .favicon{    
+    height: 40px;
+    width: 60px; 
+  }
+  .d-view{    
+    font-size: 15px;
+  }
+  .d-view .nav-links{
+      padding: 15px;
+  }
 }
 </style>

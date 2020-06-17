@@ -31,7 +31,7 @@
         
           <slot name="body">
                <ul>
-                  <li v-for="data in detail" :key="data.id">
+                  <li id="modal-skill-section" v-for="data in detail" :key="data.id">
                       {{data}}
                   </li>
                 </ul>
@@ -99,7 +99,7 @@
 
   .modal-header {
     border-bottom: 1px solid #eeeeee;
-    color: #4AAE9B;
+    color: #036266;
     justify-content: space-between;
     font-size: 20px;
   }
@@ -119,15 +119,15 @@
     font-size: 20px;
     cursor: pointer;
     font-weight: bold;
-    color: #4AAE9B;
+    color: #036266;
     background: transparent;
     font-size: 27px;
   }
 
   .btn-green {
     color: white;
-    background: #4AAE9B;
-    border: 1px solid #4AAE9B;
+    background: #036266;
+    border: 1px solid #036266;
     border-radius: 6px;
     font-size: 15px;
     padding: 10px;

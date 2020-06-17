@@ -11,8 +11,8 @@
             <div class="img-content"> A Developer</div>
         </div>
         <div class="i-content">
-            <!-- <img  class="i-img" src="../assets/gym.jpg"/> -->
-            <img  class="i-img" src="../assets/body_crop.jpg"/>
+            <img  class="i-img" src="../assets/gym.jpg"/>
+           
             <div class="img-content"> A Gym Freak</div>
         </div>
         <div class="i-content">

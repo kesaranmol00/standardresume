@@ -41,7 +41,7 @@ export default {
     },
    mounted : function(){
        //$("li").style.width = (100/ this.data.length);
-        $(".w-done").width((100/ (this.data.length+1)) + '%');
+        $(".w-done").width((100/ (this.data.length)) + '%');
         // $(".counter").text("adsd");
         
     }, 
@@ -59,12 +59,6 @@ export default {
 ol{
 list-style-type: none;
 }
-.vertical {
-    border-left: 3px solid #4AAE9B;
-    height: 58px;
-    position: absolute;
-    margin: 17px 3px;
-}
 .w-done{
 display: inline-block;
  text-align: center;
@@ -81,18 +75,31 @@ display: inline-block;
   margin: 0 30%;
 
 }
+li:last-child .counter{
+    border: solid 10px #036266;
+}
+li:last-child .counter::before{
+   display: none
+}
  .counter::before{
     display: inline-block;
     content: "";
     border-top: .2rem solid #4AAE9B;
-    width: 105px;
-    margin: 0 1em;
+    width: 110px;
+    margin: 0 25px;
     transform: translateY(-7px);
+    pointer-events: none;
  }
-
 .counter:hover{
     transform: scale(1.1);
+    box-shadow: 0 7px 5px #08554730;
+    border-color: #036266;;
 }
+
+// .counter:hover::before{
+//     width: 90px;
+//     transform: scale(1);
+// }
 .w-done-year{
  margin: 15px 24px 0 0;
 
@@ -102,17 +109,17 @@ display: inline-block;
     display: none
 }
 
-@media only screen and (min-width: 800px) {
-    .counter::before{   
-    width: 65px;
- }
-    .w-done-year {
-        margin: 15px 8px 0 0;
-    }
-}
+// @media only screen and (min-width: 800px) {
+//     .counter::before{   
+//     width: 65px;
+//  }
+//     .w-done-year {
+//         margin: 15px 8px 0 0;
+//     }
+// }
 @media only screen and (max-width: 800px) and (min-width: 426px) {
     .counter::before{   
-    width: 38px;
+    width: 33px;
  }
  .w-done-year {
         margin: 15px 0 0 0;
@@ -122,14 +129,30 @@ display: inline-block;
 @media only screen and (max-width: 425px) {
     .w-done{
     display: block;
-    margin-left: 30%;
-    
+    width: 100% !important;
     }
     .counter::before{   
         display: none;
      }
      .w-done-year {
         margin: 8px 0px 20px 8px;
+        display: inline;
+    }
+    
+    .counter{
+        margin: 0;
+        display: inline-block;
+    }
+    .w-done::after{
+            display: block;
+            content: "";
+            border-left: 3px solid #4AAE9B;
+            transform: translateY(-2px);
+            height: 66px;
+            margin: 0 0 0 40%;
+    }
+    .w-done:last-child::after{
+        display: none
     }
 }
 </style>
