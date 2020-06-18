@@ -16,11 +16,11 @@ export default {
     margin: 0 15%;
     background-color:#036266;
     border-radius: 10px 10px 0 0;
-    box-shadow: inset 1px 2px 10px 3px rgb(39, 39, 39);
+    /* box-shadow: inset 1px 2px 10px 3px rgb(39, 39, 39); */
 }
 .social-media-icon{
-    height: 30px;
-    width: 30px;
-    padding:5px;
+    height: 27px;
+    width: 27px;
+    padding: 7px 10px 0;
 }
 </style>

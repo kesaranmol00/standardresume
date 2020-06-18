@@ -69,14 +69,14 @@ display: inline-block;
   -moz-border-radius: 20px/20px;
   -webkit-border-radius: 20px 20px;
   border-radius: 20px/20px;
-  border: solid 10px #4AAE9B;
+  border: solid 10px #036266;
   width: 10px;
   height: 10px;
   margin: 0 30%;
 
 }
 li:last-child .counter{
-    border: solid 10px #036266;
+    border: solid 10px #4AAE9B;
 }
 li:last-child .counter::before{
    display: none
@@ -84,7 +84,7 @@ li:last-child .counter::before{
  .counter::before{
     display: inline-block;
     content: "";
-    border-top: .2rem solid #4AAE9B;
+    border-top: .2rem solid #036266;
     width: 110px;
     margin: 0 25px;
     transform: translateY(-7px);
@@ -93,7 +93,7 @@ li:last-child .counter::before{
 .counter:hover{
     transform: scale(1.1);
     box-shadow: 0 7px 5px #08554730;
-    border-color: #036266;;
+    border-color: #4AAE9B;;
 }
 
 // .counter:hover::before{
@@ -146,7 +146,7 @@ li:last-child .counter::before{
     .w-done::after{
             display: block;
             content: "";
-            border-left: 3px solid #4AAE9B;
+            border-left: 3px solid #036266;
             transform: translateY(-2px);
             height: 66px;
             margin: 0 0 0 40%;

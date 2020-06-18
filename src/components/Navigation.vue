@@ -61,7 +61,7 @@ export default {
         }
         $('.nav-links').on('click', function () {
         var targetSec = $(this).text().replace(/\s+/g,' ').trim();      
-        
+        $('.navigation-icon').find('i').toggleClass('fa-times fa-bars')
         $('html, body').animate({           
                 scrollTop: ($('#' + targetSec).offset().top- topfordekstop)
         }, 1000);
