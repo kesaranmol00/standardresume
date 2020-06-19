@@ -2,67 +2,75 @@
     {
         "headings" :  ["about","skills","Journey","interests","contact"],
         "about" : [
-            "I am a Asp .Net and Coveo certified preofessional currently working with TADigital from the past 5+ years",
-            "I have strong knowledge of development activities and responsible for demonstrating your coding skills on ASP.NET, C#, MVC, Entity Framework, .Net Core, Microservices, vue JS, HTML, REST API, Unit Testing etc",
+            "I am an Asp .Net and Coveo certified professional currently working with TADigital from the past 5+ years",
+            "I have strong knowledge of development activities and responsible for demonstrating your coding skills on ASP.NET, C#, MVC, Entity Framework, .Net Core, Microservices, vue JS, HTML  etc",
             "I have solid understanding of building scalable web applications using WebAPI, RESTful API design",
             "I have Written code using the .NET Core / .Net framework and Microservice architecture",
             "I have good working experience on Source Control systems like TFS, Azure DevOps, Git, Docker Containers, Kubernetes etc.",
-            "Develop the UI Framework - understand and be familiar human/user centered design, behavior driven development and test driven development"
+            "Well versed with all the stages of Defect Tracking Life Cycle on various Bug tracking tools like Mantis, Bugzilla, Jira.",
+            "Clear understanding of business requirements and implementation of same using software guidelines or acceptance criteria",
+            "I have experience in efficiently handling customer's requests, problems and troubleshooting them.",
+            "My track record reflects self motivation, creativity and initiative to achieve both personal and corporal goals.",
+            "My inquisitive mind helps me to learn new things helps me to rapidly acquire new skills on the job."
         ],
         "work" : [
             {
                 "year" : "2014",
                 "workdone" : [
-                    "Resource for the development of sites using .Net framework.",
-                    "Responsible for coding, unit testing, functional testing and regression testing",
-                    "User interface development using HTML, CSS, jQuery"]
+                    "With a sky-high level of excitement I began my career as a trainee in the IT world.",
+                    "This year introduced me to the technicalities of the digital sphere",
+                    "I acquired fundamental knowledge of all the technologies, both back end and front end.",
+                    "Dedicated and joyful people surrounded me giving me just enough challenge to grow personally and professionally"
+                ]
             },
             {
                 "year" : "2015",
                 "workdone" : [
-                    "Single handedly upgraded the site from sharepoint 2007 to 2013",
-                    "Involved in code reviews and mentoring of Junior team members",
-                    "Responsible for coding, unit testing, functional testing and regression testing"
+                    "I always believed in choosing a job i loved.  That job was chosen by now.",
+                    "Next I needed to select my career growth path with one technology. I chose to work with .Net as I was more fascinated towards backend work",
+                    "I began working on a basic .Net project from which I gained extensive knowledge about. Net."
                 ]
             },
             {
                 "year" : "2016",
                 "workdone" : [
-                    "Contributes as a key resource for the development of sites using .Net core 2 framework",
-                    "Contributes in implmenting Coveo search in the site ",
-                    "Worked closely with managers, architects, and the QA team to deliver optimal designs and software to meet and exceed expectations"
+                    "Now I had reached the point where opting a tool to work on was of prime importance.",
+                    "I got an opportunity to work on Sharepoint with some highly experienced professionals which helped me learn the basic as well as high-level technicalities. ",
+                    "I worked as a Sharepoint admin and designed some useful tools for our organization which helped them ease their work like hiring, performance management, Asset management etc."
                 ]
             },
             {
                 "year" : "2017",
                 "workdone" : [
-                    "Contributes as a key resource for the development of sites using .Net core 2 framework",
-                    "Contributes in implmenting Coveo search in the site ",
-                    "Worked closely with managers, architects, and the QA team to deliver optimal designs and software to meet and exceed expectations"
+                    "It was time to take another step forward by proceeding towards sharepoint2013, a crucial move for me as well as my organization.",
+                    "So this year, I worked on core concepts of Sharepoint 2013 and upgraded our portal from SharePoint 2007 to SharePoint 2013. This was done in a smooth and efficacious manner.",
+                    "Following this, I was endowed with the responsibility to disseminate my knowledge and experience of the same with fresh recruits"
                 ]
             },
             {
                 "year" : "2018",
                 "workdone" : [
-                    "Contributes as a key resource for the development of sites using .Net core 2 framework",
-                    "Contributes in implmenting Coveo search in the site ",
-                    "Worked closely with managers, architects, and the QA team to deliver optimal designs and software to meet and exceed expectations"
+                    "2018 started on a good note. I completely imbibed the strategy of 'learning, unlearning and relearning'",
+                    "I got the opportunity to work on .Net core 2 whith Kendo UI which  was recently launched at that time.",
+                    "In this tenure, I got myself trained with various skill training programs on .Net core and Kendo UI.",
+                    "hange is the end result of all true learning. 2018 raised my confidence and competence to new heights."
                 ]
             },
             {
                 "year" : "2019",
                 "workdone" : [
-                    "Contributes as a key resource for the development of sites using .Net core 2 framework",
-                    "Contributes in implmenting Coveo search in the site ",
+                    "A significant achievement of 2019 was successful creation of a website on. Netcore 2. This garnered a highly pragmatic response from the client thus boosting my performance to another level. ",
+                    "Now the time was just apt for transitioning the website from. Net core 2 to. Net core 2.2. This too was accomplished smoothly.",
                     "Worked closely with managers, architects, and the QA team to deliver optimal designs and software to meet and exceed expectations"
                 ]
             },
             {
                 "year" : "2020",
                 "workdone" : [
-                    "Contributes as a key resource for the development of sites using .Net core 2 framework",
-                    "Contributes in implmenting Coveo search in the site ",
-                    "Worked closely with managers, architects, and the QA team to deliver optimal designs and software to meet and exceed expectations"
+                    "New enthusiasm marked the beginning of this year",
+                    "I invested my time in mastering Coveo and along with this I got an opportunity to work on vue.js, something absolutely new for me! ",
+                    "My learning of vue is continued till date",
+                    "FYI, the site you are viewing is completely in vue :)"
                 ]
             }
         ],

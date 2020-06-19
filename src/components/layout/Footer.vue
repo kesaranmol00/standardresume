@@ -1,7 +1,7 @@
 <template>
     <div class="footer">
-      <a href="https://www.instagram.com/anmolkesar/" target="_blank"><img class="social-media-icon" alt="img" src="../../assets/linkedin.png"></a>
-     <a href="https://www.linkedin.com/in/anmol-kesar-12872694/" target="_blank"><img class="social-media-icon" alt="img" src="../../assets/instagram.png"></a>
+      <a href="https://www.instagram.com/anmolkesar/" target="_blank"><img class="social-media-icon" alt="img" src="../../assets/instagram.png"></a>
+     <a href="https://www.linkedin.com/in/anmol-kesar-12872694/" target="_blank"><img class="social-media-icon" alt="img" src="../../assets/linkedin.png"></a>
       <a href="https://twitter.com/KesarAnmol" target="_blank"><img class="social-media-icon" alt="img" src="../../assets/twitter.png"></a>
     </div>
 </template>

@@ -2,7 +2,7 @@
     <div>
         <div class="heading">
             <h3>
-                <P>Who am I</P>
+                <P>All said and done... ME IN SUMMATION</P>
             </h3>    
         </div>
         <div class="i-container"> 
@@ -65,6 +65,8 @@ export default {
 @media only screen and (max-width: 425px) {
     .i-img{
         width: 90%;
+        filter: none;
+    transition: none;
     }
 }
 @media only screen and (max-width: 800px) and (min-width: 426px) {

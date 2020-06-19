@@ -2,7 +2,7 @@
     <div>
         <div class="heading">
             <h3>
-                <P> Technologie's, I am experienced in </p>
+                <P> Technologies I am experienced in </p>
             </h3>
         </div>
     <div v-for="skill in skills" :key="skill.id">         
