@@ -7,7 +7,7 @@
         </div>
         <div id="f-left">
              <a href="https://www.google.com/maps/dir/32.6807679,+74.883424//@32.6814176,74.8639303,14z/data=!3m1!4b1!4m7!4m6!1m3!2m2!1d74.883424!2d32.6807679!1m0!3e0" target="_blank" 
-             id="map" title="Login"></a>
+             id="map" title="location"></a>
            <!-- <img src="../assets/location.png" href="google.com"
            target="_blank"/> -->
         </div>
@@ -16,18 +16,17 @@
                     <div  class="address d-inline">
                     </div>
                     <span>
-                    1/A , East Extn, <br>
-                    Trikuta Nagar Jammu<br>
-                    Jammu and Kashmir<br>
-                    Pin : 180010<br>
+                    Jammu,<br>
+                    Jammu and Kashmir,<br>
+                    INDIA<br>
                     </span>
                 </div>
-                <div class="r-content">
+                <!-- <div class="r-content">
                     <div class="p-number d-inline"></div>
                     <span>
                     +91 9596735336
                     </span>
-                </div>
+                </div> -->
                 <div class="r-content">
                     <div class="email d-inline"></div>
                    <span><a href="mailto:anmolkesar24@gmail.com"> Email me </a> </span>
@@ -49,8 +48,8 @@ export default {
     background-position: center;
     background-position: 50% 50%;
     background-image: url('../assets/location.png');
-    width: 320px;
-    height: 270px;
+    width: 250px;
+    height: 210px;
     display: inline-block;
     /* padding-left: 60px; */
     border-radius: 7px;
@@ -89,7 +88,7 @@ background-image: url('../assets/E-Mail.png');
     text-align: left;
 }
 .r-content{
-    padding:5px;
+    padding:15px;
 }
 #f-right span{
     letter-spacing: 2px;
