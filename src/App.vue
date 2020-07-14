@@ -43,7 +43,7 @@ export default {
   },
   created(){   
     document.title = "AK-Info"
-  }
+  }  
 }
 </script>
 
@@ -58,7 +58,7 @@ export default {
      flex: 1 1;
      border-bottom: 2px solid #8B9C9F;         
     margin: auto 19px;
-    color: ##036266;
+    color: #036266;
 }
 body{
   margin: 0;
