@@ -12,31 +12,30 @@
            target="_blank"/> -->
         </div>
         <div id="f-right">
-                <div class="r-content">
-                    <div  class="address d-inline">
-                    </div>
-                    <span>
-                    Jammu,<br>
-                    Jammu and Kashmir,<br>
-                    INDIA<br>
-                    </span>
-                </div>
-                <!-- <div class="r-content">
-                    <div class="p-number d-inline"></div>
-                    <span>
-                    +91 9596735336
-                    </span>
-                </div> -->
-                <div class="r-content">
-                    <div class="email d-inline"></div>
-                   <span><a href="mailto:anmolkesar24@gmail.com"> Email me </a> </span>
-                </div>
-            </div>
+            <form id="form">
+                <p class="f-heading">Drop me a line</p>
+                <input type="text" id="e-sub" placeholder="About"><br>
+                <textarea type="text" id="e-body" placeholder="Detail"></textarea><br><br>
+                <input @click="sendEmail()" type="button" class="c-btn" value="Send">
+                <input @click="formReset()" class="c-btn" type="button" value="Reset">
+            </form>
+        </div>
     </div>
 </template>
 <script>
 export default {
-    
+    methods : {
+        sendEmail(){   
+            let sub =document.getElementById("e-sub").value;            
+            let body = document.getElementById("e-body").value;
+            // body = "Hi Anmol,\n\n" + body;
+            window.open('mailto:anmolkesar24@gmail.com?subject='+sub+'&body='+body);
+            
+        },
+        formReset(){
+            document.getElementById("form").reset();
+        }
+    }
 }
 </script>
 
@@ -54,28 +53,6 @@ export default {
     /* padding-left: 60px; */
     border-radius: 7px;
 }
-.d-inline{
-    display: inline-block;
-}
-.address,.p-number,.email{
-    background-repeat: no-repeat;    
-    width: 22px;
-    height: 22px;
-     background-size: cover;
-}
-.address{
-    /* background-image: url('../assets/location-icon.png');
-    icons8-address-64 */
-     background-image: url('../assets/Location1.png');
-}
-.p-number{
-    /* background-image: url('../assets/phone-icon.png');
-    phone-number-icon-png-6 */
-    background-image: url('../assets/Phone.png');
-}
-.email{
-background-image: url('../assets/E-Mail.png');
-}
 #f-left{
     float: left;
     width: 60%;
@@ -87,17 +64,34 @@ background-image: url('../assets/E-Mail.png');
     width: 40%;
     text-align: left;
 }
-.r-content{
-    padding:15px;
+#e-sub, #e-body{
+    width: 70%;  
+    margin-top:5px ;  
 }
-#f-right span{
-    letter-spacing: 2px;
-    word-spacing: 4px;
-    font-weight: bold; 
+#e-body{
+    width: 72%;
+    height: auto;
+    height: 100px;
 }
-#f-right a{
-    text-decoration: none; 
-    color: #7D7D7D;   
+form input{
+    padding: 5px;
+}
+.c-btn{
+    background-color: #036266;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.c-btn:last-child{
+    margin-left: 20px;
+}
+.f-heading{
+    margin-top: 0;
+    color: #036266;
+    font-weight: bold;
+    font-size: 18px;
 }
 @media only screen and (max-width: 425px) {
     #f-right, #f-left{
@@ -114,6 +108,9 @@ background-image: url('../assets/E-Mail.png');
     }
     #f-left{
         margin-bottom: 0;
+    }
+    .c-btn{
+        padding: 6px 11px;
     }
 }
 </style>

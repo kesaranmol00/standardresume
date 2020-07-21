@@ -7,9 +7,11 @@
              <div class="about-img-container">
                  <img class="about-image" src="../assets/my.jpg"/>
              </div>
+             <marquee scrollamount="3" direction="up">                
              <div class="about-content" v-for="data in about" :key="data.id">
                  {{data}}
-             </div>
+             </div>             
+            </marquee>
          </div>        
     </div>
 </template>
@@ -29,6 +31,7 @@ letter-spacing: 1px;
 }
 .about-details {
     clear: both;
+    text-align : center
 }
 .about-image{
     height: 180px;
@@ -37,6 +40,10 @@ letter-spacing: 1px;
     float: left;
     margin: 0 25px 10px 25px;
     border-radius: 20px;
+}
+marquee{
+     width:80%; 
+     height:200px
 }
 @media only screen and (max-width: 425px) {
     .about-image{       

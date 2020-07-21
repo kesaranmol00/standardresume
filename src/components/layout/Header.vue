@@ -14,7 +14,7 @@
           </span>          
           <br>
           <span>
-            Full Stack developer
+            Full Stack Developer
           </span>
         </div>
         </div>
@@ -89,7 +89,7 @@
   color: #FFF;
   text-align: center;
   font-weight: 300;
-  font-size: 50px;
+  font-size: 45px;
   letter-spacing: 10px;
   margin-top: -60px;
   padding-left: 10px;
@@ -99,6 +99,10 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+#title span:last-child{
+  font-size: 40px;
+}
+
 
 @keyframes animStar {
   from {
@@ -122,6 +126,10 @@
   font-size: 22px;
   letter-spacing: 2px;
 }
+#title span:last-child{
+  font-size: 20px;
+}
+
 }
 
 </style>

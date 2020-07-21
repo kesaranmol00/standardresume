@@ -23,4 +23,14 @@ export default {
     width: 27px;
     padding: 7px 10px 0;
 }
+@media only screen and (max-width: 425px) {
+    .social-media-icon{
+    height: 22px;
+    width: 22px;
+    padding: 6px 8px 0;
+}
+.footer{
+    margin: 0 10%;
+}
+}
 </style>

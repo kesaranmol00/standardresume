@@ -94,7 +94,7 @@ img {vertical-align: middle;}
   font-size: 15px;
   padding: 0 12px;
   position: absolute;  
-  width: 65%;
+  width: 62%;
   float: right;
   letter-spacing: 1px;
   top:2px
